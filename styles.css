@@ -1,3 +1,54 @@
-body {
-	background: blue;
+#logo {
+	display: block;
+	width: 70%;
+	margin: auto;
+}
+main {
+	border: 5px solid rgb(28, 208, 126);
+	padding-left: 25px;
+	padding-right: 20px;
+	margin-top: 15px;
+}
+.headings {
+	font-family: "georgia";
+	color: rgb(105, 103, 103);
+	
+
+}
+.text {
+	font-family: "georgia";
+	color: rgb(105, 103, 103);
+	display: block;
+}
+#artists-page {
+	background-image: url(gsp_vert.png);
+	background-size: 30%;
+	background-repeat: no-repeat;
+	background-position: bottom right;	
+}
+.navbar {
+	border: 2px solid rgb(105, 103, 103);
+	background-color: rgb(28, 208, 126);
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.links {
+	font-family: "georgia";
+	width: 10%;
+	margin: 5px;
+	font-style: bold;
+
+}
+
+.links a:hover {
+	background-color: rgb(105, 103, 103);
+}
+
+.navbuttons {
+	display: block;
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+
 }
