@@ -37,12 +37,8 @@ main {
 	font-family: "georgia";
 	width: 10%;
 	margin: 5px;
-	font-style: bold;
+	color: black;
 
-}
-
-.links a:hover {
-	background-color: rgb(105, 103, 103);
 }
 
 .navbuttons {
@@ -51,4 +47,17 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 
+}
+
+a:visited {
+	color: rgb(105, 103, 103);
+}
+a:hover {
+	background-color: white;
+}
+
+@media screen and (max-width: 500px) {
+	#logo {
+		width: 100%;
+	}
 }
